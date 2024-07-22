@@ -5,6 +5,7 @@ import Banner from "../../assets/hero_banner.jpg"
 import HeroTittle from "../../assets/hero_title.png";
 import play from "../../assets/play_icon.png"
 import Info from "../../assets/info_icon.png"
+import TittleCards from '../../Components/TittleCards/TittleCards';
 
 
 const Homepage = () => {
@@ -20,7 +21,14 @@ const Homepage = () => {
     <button className='btn'><img src={play} alt="" /> Play</button>
     <button className='btn dark-btn'><img src={Info} alt="" /> More-Info</button>
     </div>
+    <TittleCards/>
     </div>
+    </div>
+    <div className="more-cards">
+    <TittleCards title={"BlockBuster Movies"}/>
+    <TittleCards title={"Only On NetFlix"}/>
+    <TittleCards title={"Upcoming"}/>
+    <TittleCards title={"Top Pics For You"}/>
     </div>
     </div>
   )
