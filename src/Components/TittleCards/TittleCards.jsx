@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./TittleCards.css";
-import Data from "../../assets/cards/Cards_data";
-import cards_data from "../../assets/cards/Cards_data";
+// import Data from "../../assets/cards/Cards_data";
+// import cards_data from "../../assets/cards/Cards_data";
 
 const TittleCards = ({ title, category }) => {
 
